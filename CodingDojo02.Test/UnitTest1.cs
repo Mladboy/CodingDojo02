@@ -35,7 +35,7 @@ namespace CodingDojo02.Test
         }
 
         [Fact]
-        public void should_return002vs000_whenTeamAScoreOnePoint()
+        public void should_return002vs000_whenTeamAScoreTwoPoints()
         {
             // given
             ScoreKeeper scoreKeeper = new ScorersTable();
@@ -47,5 +47,35 @@ namespace CodingDojo02.Test
             // then
             score.Should().Be("002:000");
         }
+
+        [Fact]
+        public void should_return003vs000_whenTeamAScoreThreePoints()
+        {
+            // given
+            ScoreKeeper scoreKeeper = new ScorersTable();
+
+            // when
+            scoreKeeper.scoreTeamA3();
+            string score = scoreKeeper.getScore();
+
+            // then
+            score.Should().Be("003:000");
+        }
+
+        [Fact]
+        public void should_return002vs001_whenTeamAScoreTwoPointsAndTeamBScoreOnePoint()
+        {
+            // given
+            ScoreKeeper scoreKeeper = new ScorersTable();
+
+            // when
+            scoreKeeper.scoreTeamA2();
+            scoreKeeper.scoreTeamB1();
+            string score = scoreKeeper.getScore();
+
+            // then
+            score.Should().Be("002:001");
+        }
+
     }
 }

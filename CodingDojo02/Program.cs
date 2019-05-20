@@ -28,10 +28,11 @@ namespace CodingDojo02
     {
 
         private int teamAScore;
+        private int teamBScore;
 
         public string getScore()
         {
-            return "00" + teamAScore + ":000";
+            return "00" + teamAScore + ":00" + teamBScore;
         }
 
         public void scoreTeamA1()
@@ -46,12 +47,12 @@ namespace CodingDojo02
 
         public void scoreTeamA3()
         {
-            throw new NotImplementedException();
+            teamAScore += 3;
         }
 
         public void scoreTeamB1()
         {
-            throw new NotImplementedException();
+            teamBScore += 1;
         }
 
         public void scoreTeamB2()
