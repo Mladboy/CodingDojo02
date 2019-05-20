@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo02", "CodingDojo02\CodingDojo02.csproj", "{4D02EBD6-4C4F-4359-A931-0D2746CB7EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo02.Test", "CodingDojo02.Test\CodingDojo02.Test.csproj", "{7A73680D-1132-4095-9F7F-9F260AD237DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D02EBD6-4C4F-4359-A931-0D2746CB7EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D02EBD6-4C4F-4359-A931-0D2746CB7EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D02EBD6-4C4F-4359-A931-0D2746CB7EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A73680D-1132-4095-9F7F-9F260AD237DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A73680D-1132-4095-9F7F-9F260AD237DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A73680D-1132-4095-9F7F-9F260AD237DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A73680D-1132-4095-9F7F-9F260AD237DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
